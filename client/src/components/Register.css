@@ -1,0 +1,34 @@
+#register {
+  width: 35vw;
+  padding: 1%;
+  box-shadow: 5px 5px 5px 5px white;
+}
+.lable_reg {
+  font-size: 18px;
+}
+.reg_row {
+  margin-bottom: 5px;
+}
+.reg {
+  background-color: black;
+}
+@media only screen and (max-width: 480px) {
+  /* for mobile size*/
+  #register {
+    width: 80%;
+    box-shadow: 2px 2px 2px 2px white;
+  }
+  .lable_reg {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* for mobile size*/
+  #register {
+    width: 90%;
+    box-shadow: 2px 2px 2px 2px white;
+  }
+  .lable_reg {
+    font-size: 15px !important;
+  }
+}

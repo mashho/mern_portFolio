@@ -1,0 +1,16 @@
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+#pro_img {
+  width: 100%;
+}
+.project {
+  background-color: black;
+}
+.proj_head {
+  color: white !important;
+}

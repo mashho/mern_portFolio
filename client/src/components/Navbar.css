@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+.navbar-nav {
+  margin-left: auto !important;
+  right: 0 !important;
+}
+.company-name {
+  font-family: "Dancing Script", cursive;
+  user-select: none;
+  font-size: 2.5vw;
+  margin-left: 100px;
+  color: white !important;
+}
+.nav-item {
+  margin-right: 10px;
+  width: auto;
+  border: 1px solid black;
+}
+.nav-item:nth-child(1) {
+  border: 1px solid greenyellow;
+}
+.nav-item:nth-child(2) {
+  border: 1px solid red;
+}
+.nav-item:nth-child(3) {
+  border: 1px solid yellow;
+}
+.nav-item:nth-child(4) {
+  border: 1px solid green;
+}
+.nav-item:nth-child(5) {
+  border: 1px solid red;
+}
+.nav-item:nth-child(6) {
+  border: 1px solid blueviolet;
+}
+.nav-item:nth-child(7) {
+  border: 1px solid rgb(15, 228, 199);
+}
+.nav-item:hover {
+  background-color: #dcdcdc;
+}
+.nav-link {
+  color: white !important;
+}
+
+.container {
+  margin-right: 5% !important;
+}
+.navbar {
+  background-color: black !important;
+  margin-bottom: 20px;
+}
+.navbar-toggler {
+  background-color: white !important;
+  width: 10px;
+  height: 10px;
+  justify-content: center;
+}
+.navbar-toggler-icon {
+  height: 5px;
+}
+@media only screen and (max-width: 480px) {
+  /* for mobile size*/
+  .company-name {
+    font-size: 6.5vw;
+    color: white !important;
+    margin-left: 0px;
+  }
+  .nav-item:nth-child(1) {
+    border: none;
+  }
+  .nav-item:nth-child(2) {
+    border: none;
+  }
+  .nav-item:nth-child(3) {
+    border: none;
+  }
+  .nav-item:nth-child(4) {
+    border: none;
+  }
+  .nav-item:nth-child(5) {
+    border: none;
+  }
+  .nav-item:nth-child(6) {
+    border: none;
+  }
+  .nav-item:nth-child(7) {
+    border: none;
+  }
+}

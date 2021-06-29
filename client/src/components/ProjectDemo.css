@@ -1,0 +1,17 @@
+.img-proj {
+  width: 70%;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.projdemo {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.demo_img {
+  justify-content: center;
+
+  align-items: center;
+}

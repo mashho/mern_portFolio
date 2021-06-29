@@ -1,0 +1,29 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+  margin-bottom: auto;
+  background-color: black;
+}
+
+.imgs {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 480px) {
+  /* for mobile size*/
+  .imgs {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+.error_head {
+  padding-top: 80px;
+  color: white !important;
+}
