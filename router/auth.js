@@ -8,9 +8,7 @@ const authenticate=require('../middleware/authenticate');
 
 require('../db/conn');
 const User=require('../model/userschema');
-router.get('/',(req,res)=>{
-    res.send({"name":"Danny"});
-})
+
 // signup
 router.post('/regist',async (req,res)=>{
     const {firstname,lastname,contact,email,password,confirmpassword}=req.body;
